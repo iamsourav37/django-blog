@@ -1,4 +1,5 @@
 /.idea/
 /shelf/
 /workspace.xml
-/.sqlite3
+.sqlite3
+myblog.sqlite3
