@@ -22,6 +22,7 @@ post = [
 def home(request):
     context = {
         "title": "Home",
+        "home_active": True,
         "posts": post
     }
     return render(request, "blog/home.html", context)
@@ -29,6 +30,7 @@ def home(request):
 
 def about(request):
     context = {
-        "title": "About"
+        "title": "About",
+        "about_active": True,
     }
     return render(request, "blog/about.html", context)
